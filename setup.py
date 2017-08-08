@@ -49,7 +49,7 @@ setup(
     packages=find_packages('src'),
     install_requires=[
         'factory_boy',
-        'fake-factory',
+        'faker',
         'model_mommy',
     ],
     extras_require={

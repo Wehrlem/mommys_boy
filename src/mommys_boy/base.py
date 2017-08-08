@@ -5,10 +5,9 @@ import warnings
 
 from django.db.models import Model as Model
 from factory import Factory
-from factory.django import DjangoModelFactory, DjangoOptions
+from factory import Factory as FakeFactory
+from factory.django import DjangoOptions, DjangoModelFactory
 from factory import base
-from faker import Factory as FakeFactory
-
 fake = FakeFactory.create()
 
 
