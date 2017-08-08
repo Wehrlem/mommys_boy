@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 import warnings
 
 from django.db.models import Model as Model
-from factory import Factory
-from factory import Factory as FakeFactory
+from faker import Factory
+from faker import Factory as FakeFactory
 from factory.django import DjangoOptions, DjangoModelFactory
 from factory import base
 fake = FakeFactory.create()
